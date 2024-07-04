@@ -14,7 +14,7 @@ Let me give a quick intro about how our current implementation looks and works:
 
 > Pre-info: Cycles and composite cycle models shown are only used for TIMIING. So looking for changes in direction of the cycle or cycle composite model. Amplitude does not predict price targets.
 
-The first step is to run our sophisticated cycle analysis algorithms on a price series. The interface displays the dataset in the upper-left corner. We utilize a public "lightweight" charting library and have added numerous features to allow selecting the start and end points on the chart for the analysis. The results from the cycle analysis are presented as a spectrum plot at the bottom and a table on the left.
+The first step is to run our sophisticated cycle analysis algorithms on a price series. The interface displays the dataset in the upper-left corner. We utilize a public "lightweight" charting library and have added numerous features to allow selecting the start and end points on the chart for the analysis. The results from the cycle analysis are presented as a spectrum plot at the bottom and a table on the right.
 <img width="1256" alt="image" src="https://github.com/whentotrade/cycle-analysis-tradingview/assets/30272473/8056e489-ab46-435e-a317-ba5397046738">
 
 The screenshot displays the user selecting two cycles, which are then combined into a composite cycle model and plotted as an overlay on the chart. This composite cycle plot also includes a prediction curve extending into the future. Once the user is satisfied with the selected cycle model, it is saved as a new data series in the database. The user then switches to the advanced private charting library, where they can pull up the price series and the newly created composite model to overlay on the same chart. This allows access to the charting library's full range of features.
@@ -22,7 +22,7 @@ The screenshot displays the user selecting two cycles, which are then combined i
 The following illustration demonstrates the use of the private advanced charting library. We incorporate the previously created composite cycle model as a separate data series and overlay it on the S&P 500 daily data. This allows us to leverage additional specialized indicators and basic charting functions.
 <img width="1262" alt="image" src="https://github.com/whentotrade/cycle-analysis-tradingview/assets/30272473/251ef6e8-fc35-47b0-8e7b-cd956678fb61">
 
-If there is more interest, I am happy to share more information on the use cases and can also record a video to showcase the details. I am happy to give everyone access to this cycle analysis platform if you want to elaborate how to better integrate this with TV directly. Just let me know (via TV discord channels)
+If there is more interest, I am happy to share more information on the use cases and can also record a video to showcase the details. I am happy to give everyone access to this cycle analysis platform if you want to elaborate how to better integrate this with TV directly. Just let me know (via TV discord channels). This works on intraday and any timeframe. We also utilize AI models to pick the right cycles to create forecasting models on 20min future data. These models are used in real trading with professionals and instituions.
 
 ## Current issues and challanges
 1) The complex digital signal processing algorithms used in the cycle analysis cannot be easily implemented in Pine Script. They require more advanced coding.
