@@ -1,6 +1,6 @@
 # cycle-analysis-tradingview
 This is a abstract and framework proposal for the deep integration of state-of-the art cycle analysis in TradingView.
-> For discussion in TV telegram channels. 
+> For further discussion in TV telegram channels. 
 >
 > My handle on TV: @StockMarketCycles // https://www.tradingview.com/u/StockMarketCycles
 
