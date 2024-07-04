@@ -12,6 +12,8 @@ Let me give a quick intro about how our current implementation looks and works:
 
 ## Background and quick start
 
+> Pre-info: Cycles and composite cycle models shown are only used for TIMIING. So looking for changes in direction of the cycle or cycle composite model. Amplitude does not predict price targets.
+
 The first step is to run our sophisticated cycle analysis algorithms on a price series. The interface displays the dataset in the upper-left corner. We utilize a public "lightweight" charting library and have added numerous features to allow selecting the start and end points on the chart for the analysis. The results from the cycle analysis are presented as a spectrum plot at the bottom and a table on the left.
 <img width="1256" alt="image" src="https://github.com/whentotrade/cycle-analysis-tradingview/assets/30272473/8056e489-ab46-435e-a317-ba5397046738">
 
