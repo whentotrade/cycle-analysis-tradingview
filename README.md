@@ -1,6 +1,8 @@
 # cycle-analysis-tradingview
 This is a abstract and framework proposal for the deep integration of state-of-the art cycle analysis in TradingView.
-> For discussion in TV telegram channels.
+> For discussion in TV telegram channels. 
+>
+> My handle on TV: @StockMarketCycles // https://www.tradingview.com/u/StockMarketCycles
 
 ## Personal background
 I am Lars von Thienen, residing in Hamburg, Germany. Since earning my economics and engineering degree in 1997, I have focused on developing digital signal processing analysis frameworks for financial time series. Over the past 20 years, I have worked with and coded for numerous charting platforms. I have deep expertise in cycle analysis, cycle detection, and cycle forecasting for financial time series. In 2010, I wrote two books on cycle analysis and developed my own charting application with integrated cycle analysis capabilities. In 2019, I transferred my cycle algorithms into a highly scalable, cloud-based API engine. Currently, I am a board member of the non-profit Foundation for the Study of Cycles, which now provides these analytical tools.
